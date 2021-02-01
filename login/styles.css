@@ -41,7 +41,6 @@ button:hover {
   -webkit-text-fill-color: transparent; 
   animation: 5s AnimationName infinite linear;
   animation-direction: alternate;
-  animation-play-state: paused;
 }
 
 /* Center the image and position the close button */
@@ -72,7 +71,7 @@ img.logo {
   background-size: 400%;
   animation: 5s AnimationName infinite linear;
   animation-direction: alternate;
-  animation-play-state: paused;
+  
 }
 
 /* Modal Content/Box */
@@ -117,12 +116,6 @@ img.logo {
 #X {
   color: red;
   font-weight: bold;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
 }
 
 @keyframes AnimationName {
