@@ -12,14 +12,19 @@ body {
   position: relative;
 }
 
-img.avatar {
+img.logo {
   padding-top: 1%;
   width: 40%;
 }
 
+.container {
+  padding: 16px;
+  margin-left: 40%;
+}
+  
+
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
@@ -32,26 +37,30 @@ img.avatar {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: transparent;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 50%; /* Could be more or less, depending on screen size */
 }
 
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
+#withdrawal {
+    border-radius: 12px;
+    cursor: pointer;
 }
 
-.close:hover,
-.close:focus {
-  color: red;
+#deposit {
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#check-balance {
+  border-radius: 12px;
   cursor: pointer;
+}
+
+#error{
+  display: none;
+  font-weight: bold;
+  color: red;
 }
 
 /* Add Zoom Animation */
